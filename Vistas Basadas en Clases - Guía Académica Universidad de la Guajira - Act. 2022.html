@@ -1,0 +1,2421 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://190.131.213.204:9090/site/backend/Django/clases/ -->
+<html lang="en" class="js-focus-visible js" data-js-focus-visible=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+      
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="http://190.131.213.204:9090/site/assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.6">
+    
+    
+      
+        <title>Vistas Basadas en Clases - Guía Académica Universidad de la Guajira - Act. 2022</title>
+      
+    
+    
+      <link rel="stylesheet" href="./Vistas Basadas en Clases - Guía Académica Universidad de la Guajira - Act. 2022_files/main.4a0965b7.min.css">
+      
+        
+        <link rel="stylesheet" href="./Vistas Basadas en Clases - Guía Académica Universidad de la Guajira - Act. 2022_files/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <link rel="stylesheet" href="./Vistas Basadas en Clases - Guía Académica Universidad de la Guajira - Act. 2022_files/css">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <style type="text/css">:root zeus-ad, :root topadblock, :root span[id^="ezoic-pub-ad-placeholder-"], :root guj-ad, :root div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"], :root div[id^="yandex_ad"], :root div[id^="vuukle-ad-"], :root div[id^="rc-widget-"], :root div[id^="lazyad-"], :root div[id^="js-dfp-"], :root div[id^="gtm-ad-"], :root div[id^="gpt_ad_"], :root div[id^="div-gpt-"], :root div[id^="dfp-slot-"], :root div[id^="dfp-ad-"], :root div[id^="advads_"], :root div[id^="adspot-"], :root div[id^="ads300_250-widget-"], :root div[id^="ads300_100-widget-"], :root div[id^="ads250_250-widget-"], :root div[id^="adrotate_widgets-"], :root div[id^="adngin-"], :root div[id^="adfox_"], :root div[id^="ad_script_"], :root div[id^="ad-server-"], :root div[id^="ad-gpt-"], :root div[id^="ad-div-"], :root div[id*="ScriptRoot"], :root div[id*="MarketGid"], :root div[data-mpu1], :root div[data-insertion], :root div[data-id-advertdfpconf], :root div[data-google-query-id], :root hl-adsense, :root div[data-contentexchange-widget], :root div[data-content="Advertisement"], :root div[data-alias="300x250 Ad 2"], :root div[data-alias="300x250 Ad 1"], :root div[data-adzone], :root div[data-adunit-path], :root div[data-adname], :root div[data-ad-wrapper], :root div[data-ad-targeting], :root div[data-ad-placeholder], :root div[class^="s-dfp-"], :root div[class^="native-ad-"], :root div[data-dfp-id], :root div[class^="kiwi-ad-wrapper"], :root div[aria-label="Ads"], :root display-ads, :root aside[id^="advads_ad_widget-"], :root aside[id^="adrotate_widgets-"], :root article.ad, :root ark-top-ad, :root app-advertisement, :root app-ad, :root amp-embed[type="taboola"], :root amp-connatix-player, :root amp-ad-custom, :root ad-shield-ads, :root ad-desktop-sidebar, :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"], :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[href^="https://www.vfreecams.com/in/?track="], :root a[href^="https://www.rabbits.webcam/?id="], :root a[href^="https://www.purevpn.com/"][href*="&utm_source=aff-"], :root a[href^="https://www.privateinternetaccess.com/"] > img, :root a[href^="https://www.passeura.com/"], :root a[href^="https://www.oneclickroot.com/?tap_a="] > img, :root a[href^="https://www.oboom.com/ref/"], :root a[href^="https://www.nutaku.net/signup/landing/"], :root a[href^="https://www.nudeidols.com/cams/"], :root a[href^="https://www.mypornstarcams.com/landing/click/"], :root a[href^="https://www.mrskin.com/account/"], :root a[href^="https://www.kingsoffetish.com/tour?partner_id="], :root a[href^="https://www.jackery.com?aff="] > img, :root a[href^="https://www.iyalc.com/"], :root a[href^="https://www.infowarsstore.com/"] > img, :root a[href^="https://www.highperformancegate.com/"], :root a[href^="https://www.healthrangerstore.com/"] > img, :root a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="], :root a[href^="https://www.get-express-vpn.com/offer/"], :root a[href^="https://www.financeads.net/tc.php?"], :root a[href^="https://www.clicktraceclick.com/"], :root a[href^="https://www.camsoda.com/enter.php?id="], :root a[href^="https://www.brazzersnetwork.com/landing/"], :root div[class^="Display_displayAd"], :root a[href^="https://www.sheetmusicplus.com/?aff_id="], :root a[href^="https://www.bang.com/?aff="], :root a[href^="https://www.arthrozene.com/"][href*="?tid="], :root a[href^="https://webroutetrk.com/"], :root iframe[src^="http://ad.yieldmanager.com/"], :root a[href^="https://wantopticalfreelance.com/"], :root a[href^="https://waisheph.com/"], :root a[href^="https://uncensored.game/"], :root a[href^="https://twinrdsyn.com/"], :root a[href^="https://tupitea.co/"], :root a[href^="https://ttf.trmobc.com/"], :root a[href^="https://trusted-click-host.com/"], :root a[href^="https://trk.watchlivesports4k.club/"], :root a[href^="https://trk.moviesflix4k.xyz/"], :root a[href^="https://trf.bannerator.com/"], :root a[href^="https://trappist-1d.com/"], :root a[href^="https://tragency-clesburg.icu/"], :root a[href^="https://traffdaq.com/"], :root a[href^="https://tracking.trackcasino.co/"], :root a[href^="https://tracking.comfortclick.eu/"], :root a[href^="https://tracking.avapartner.com/"], :root a[href^="https://track.ultravpn.com/"], :root a[href^="https://track.totalav.com/"], :root a[href^="https://track.themadtrcker.com/"], :root a[href^="https://track.interactivegf.com/"], :root a[href^="https://vlnk.me/"], :root a[href^="https://track.healthtrader.com/"], :root a[href^="https://track.effiliation.com/servlet/effi.click?"] > img, :root a[href^="https://track.clickmoi.xyz/"], :root a[href^="https://track.afcpatrk.com/"], :root a[href^="https://torguard.net/aff.php"] > img, :root a[href^="https://tm-offers.gamingadult.com/"], :root a[href^="https://tracking.gitads.io/"], :root a[href^="https://taghaugh.com/"], :root a[href^="https://t.mobtya.com/"], :root a[href^="https://t.hrtyj.com/"], :root a[href^="https://t.adating.link/"], :root a[href^="https://topoffers.com/"][href*="/?pid="], :root a[href^="https://syndication.dynsrvtbg.com/"], :root a[href^="https://streamate.com/landing/click/"], :root a[href^="https://s.zlink2.com/"], :root a[href^="https://reachtrgt.com/"], :root a[href^="https://queersodadults.com/"], :root a[href^="https://promo-bc.com/"], :root a[href^="https://prf.hn/click/"][href*="/camref:"] > img, :root a[href^="https://serve.awmdelivery.com/"], :root a[href^="https://prf.hn/click/"][href*="/adref:"] > img, :root a[href^="https://pongidsrunback.com/"], :root a[href^="https://pcm.bannerator.com/"], :root iframe[id^="google_ads_frame"], :root a[href^="https://pb-track.com/"], :root a[href^="https://partners.fxoro.com/click.php?"], :root a[href^="https://paid.outbrain.com/network/redir?"], :root a[href^="https://torrentsafeguard.com/?aid="], :root a[href^="https://offers.refchamp.com/"], :root a[href^="https://ndt5.net/"], :root a[href^="https://natour.naughtyamerica.com/track/"], :root a[href^="https://cam4com.go2cloud.org/"], :root a[href^="https://my-movie.club/"], :root a[href^="https://iqbroker.com/"][href*="?aff="], :root a[href^="https://movie.download-file.org/"], :root div[id^="ezoic-pub-ad-"], :root a[href^="https://mk-cdn.net/"], :root .trc_rbox_div .syndicatedItemUB, :root [href^="https://zone.gotrackier.com/"], :root a[href^="https://meet-to-fuck.com/"], :root [href^="https://www.herbanomic.com/"] > img, :root a[href^="https://maymooth-stopic.com/"], :root div[id^="google_dfp_"], :root a[href^="http://googleads.g.doubleclick.net/pcs/click"], :root a[href^="https://look.utndln.com/"], :root a[href^="https://a.bestcontentweb.top/"], :root a[href^="https://lobimax.com/"], :root a[href^="https://lead1.pl/"], :root a[href^="https://refpazkjixes.top/"], :root a[href^="https://landing.brazzersplus.com/"], :root a[href^="https://landing.brazzersnetwork.com/"], :root a[href^="https://ads.leovegas.com/redirect.aspx?"], :root a[href^="https://land.brazzersnetwork.com/landing/"], :root a[href^="https://juicyads.in/"], :root a[href^="https://itubego.com/video-downloader/?affid="], :root a[href^="https://incisivetrk.cvtr.io/click?"], :root a[href^="https://iactrivago.ampxdirect.com/"], :root a[href^="https://iac.ampxdirect.com/"], :root a[href^="https://go.zybrdr.com"], :root [href^="http://join.michelle-austin.com/"], :root a[href^="https://go.xxxiijmp.com"], :root a[href*=".zlinkm.com/"], :root a[href^="https://go.xtbaffiliates.com/"], :root a[href^="https://thaudray.com/"], :root [data-role="tile-ads-module"], :root a[href^="https://adsrv4k.com/"], :root a[href^="https://go.xlviirdr.com"], :root .card-captioned.crd > .crd--cnt > .s2nPlayer, :root [data-css-class="dfp-inarticle"], :root a[href^="https://go.tmrjmp.com"], :root a[href^="https://go.strpjmp.com/"], :root a[href^="https://go.skinstrip.net"][href*="?campaignId="], :root a[href^="https://go.markets.com/visit/?bta="], :root a[href^="//lambingsyddir.com/"], :root a[href^="https://billing.purevpn.com/aff.php"] > img, :root a[href^="https://go.hpyrdr.com/"], :root a[href^="https://go.goaserv.com/"], :root a[href^="https://go.ebrokerserve.com/"], :root a[href^="https://ismlks.com/"], :root [href^="https://www.mypillow.com/"] > img, :root a[href^="https://azpresearch.club/"], :root a[href^="https://go.xlirdr.com"], :root a[href^="https://track.afftck.com/"], :root a[href^="https://gohere.pl/"], :root a[href^="https://go.cmrdr.com/"], :root a[href^="https://www.bebi.com"], :root a[href^="https://loboclick.com"], :root iframe[src^="https://pagead2.googlesyndication.com/"], :root a[href^="http://www.onwebcam.com/random?t_link="], :root a[href^="https://get2nesoft1.ru/"], :root [href^="https://kingered-banctours.com/"], :root a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img, :root a[href^="https://affiliate.rusvpn.com/click.php?"], :root a[href^="https://geniusdexchange.com/"], :root a[href^="https://aj1070.online/"], :root a[href^="https://frameworkdeserve.com/"], :root a[href^="https://www.mrskin.com/tour"], :root a[href^="https://financeads.net/tc.php?"], :root bottomadblock, :root a[href^="https://fertilitycommand.com/"], :root a[href^="https://bluedelivery.pro/"], :root a[href^="https://fast-redirecting.com/"], :root a[href^="https://fakelay.com/"], :root a[href^="https://medleyads.com/"], :root div[data-native-ad], :root AD-SLOT, :root a[href^="https://engine.trackingdesks.com/"], :root a[href^="https://engine.blueistheneworanges.com/"], :root a[href^="https://tc.tradetracker.net/"] > img, :root a[href^="https://dianches-inchor.com/"], :root a[href^="https://go.admjmp.com/"], :root amp-fx-flying-carpet, :root a[href^="https://dfsdkkka.com/"], :root .ob_dual_right > .ob_ads_header ~ .odb_div, :root a[href^="https://deliver.tf2www.com/"], :root [href^="https://www.targetingpartner.com/"], :root [href^="https://detachedbates.com/"], :root a[href^="https://deliver.ptgncdn.com/"], :root a[href^="https://datingbests.life/"], :root #kt_player > a[target="_blank"], :root a[href^="https://cpartner.bdswiss.com/"], :root a[href^="https://clixtrac.com/"], :root AD-TRIPLE-BOX, :root a[href^="https://click.hoolig.app/"], :root img[src^="https://images.purevpnaffiliates.com"], :root a[href^="https://porntubemate.com/"], :root a[href^="http://www.gfrevenge.com/landing/"], :root a[href^="https://clickadilla.com/"], :root a[href^="https://click.dtiserv2.com/"], :root a[href^="https://go.xlvirdr.com"], :root a[href^="https://claring-loccelkin.com/"], :root a[href^="https://chaturbate.com/in/?track="], :root a[href^="https://chaturbate.com/in/?tour="], :root a[href^="https://aaucwbe.com/"], :root a[href^="https://cams.imagetwist.com/in/?track="], :root a[href^="https://mob1ledev1ces.com/"], :root a[href^="https://explore.findanswersnow.net/"], :root a[href^="https://camfapr.com/landing/click/"], :root a[href^="https://affcpatrk.com/"], :root a[href^="https://bongacams2.com/track?"], :root a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="], :root a[href^="https://bngpt.com/"], :root #topstuff > #tads, :root a[href^="https://black77854.com/"], :root a[href^="https://burpee.xyz/"], :root a[href*=".flndmyiove.net/"], :root [href^="http://join.trannies-fuck.com/"], :root [href^="http://www.fleshlightgirls.com/"], :root a[href^="https://bestdatinghere.life/"], :root a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"], :root a[href^="https://banners.livepartners.com/"], :root a[href^="https://m.do.co/c/"] > img, :root div[id^="sticky_ad_"], :root a[href^="https://avtub.click/assets/link.php"], :root a[href^="https://go.gldrdr.com/"], :root a[href^="https://as.sexad.net/"], :root a[href^="https://bestcond1tions.com/"], :root a[href^="https://takeallsoft.ru/"], :root a[href^="https://as.conjectwatson.com/"], :root [href="https://masstortfinancing.com"] img, :root a[href^="https://bongacams10.com/track?"], :root [data-ez-name], :root a[href^="https://awecrptjmp.com/"], :root a[href^="https://someperceptionparade.com/"], :root a[href^="https://galaxyroms.net/?scr="], :root a[href^="https://albionsoftwares.com/"], :root display-ad-component, :root a[href^="https://ak.hetaruwg.com/"], :root a[href^="https://go.etoro.com/"] > img, :root a[href^="https://go.alxbgo.com/"], :root a[href^="https://aff-ads.stickywilds.com/"], :root a[href^="https://t.hrtye.com/"], :root a[href^="https://ads.cdn.live/"], :root a[href^="https://join.sexworld3d.com/track/"], :root a[href^="https://intenseaffiliates.com/redirect/"], :root a[href^="https://aweptjmp.com/"], :root a[href^="https://ads.ad4game.com/"], :root a[href^="https://affpa.top/"], :root a[href^="https://adnetwrk.com/"], :root a[href^="https://adjoincomprise.com/"], :root a[href^="https://t.grtyi.com/"], :root a[href^="https://myusenet.xyz/"], :root [href^="http://misslinkvocation.com/"], :root a[href^="https://adclick.g.doubleclick.net/"], :root a[href^="https://www.bet365.com/"][href*="affiliate="], :root [href^="https://r.kraken.com/"], :root a[href^="https://mmwebhandler.aff-online.com/"], :root a[href^="http://secure.vivid.com/track/"], :root a[href^="https://go.nordvpn.net/aff"] > img, :root a[href^="https://misspkl.com/"], :root [href^="http://clicks.totemcash.com/"], :root a[href^="https://ad.zanox.com/ppc/"] > img, :root a[href^="https://msecure117.com/"], :root a[href^="https://ad.kubiccomps.icu/"], :root a[href^="https://adswick.com/"], :root a[href^="https://static.fleshlight.com/images/banners/"], :root a[href^="https://ad.doubleclick.net/"], :root a[href^="https://ad.atdmt.com/"], :root a[href^="https://meet-sex-here.com/"], :root [data-m-ad-id], :root a[href^="https://a-ads.com/"], :root a[href^="http://www.mrskin.com/tour"], :root a[href^="https://k2s.cc/pr/"], :root a[data-url^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://www.coiwqe.site/"], :root iframe[src^="http://www.adpeepshosted.com/"], :root a[href^="https://prf.hn/click/"][href*="/creativeref:"] > img, :root a[href^="http://www.adultempire.com/unlimited/promo?"][href*="&partner_id="], :root a[href^="https://ads-for-free.com/click.php?"], :root a[href^="http://www.FriendlyDuck.com/"], :root a[href^="http://traffic.tc-clicks.com/"], :root a[href^="http://tc.tradetracker.net/"] > img, :root .trc_rbox .syndicatedItem, :root a[href^="https://1free33style.com/"], :root a[href^="http://rs-stripe.wsj.com/stripe/redirect"], :root a[href^="http://tour.mrskin.com/"], :root a[href^="http://pubads.g.doubleclick.net/"], :root [onclick*="content.ad/"], :root a[href^="http://pityhostngco2.xyz/"], :root a[href^="http://partners.etoro.com/"], :root .commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > div > .vci, :root a[href^="http://paid.outbrain.com/network/redir?"], :root a[data-redirect^="https://paid.outbrain.com/network/redir?"], :root [href^="https://www.reimageplus.com/"], :root a[href^="https://engine.phn.doublepimp.com/"], :root a[href^="http://intent.bingads.com/"], :root a[href^="https://cagothie.net/"], :root a[href^="https://watchmygirlfriend.tv/"], :root a[href^="http://go.xtbaffiliates.com/"], :root a[href^="http://www.advcashpro.com/aff/"], :root a[href^="http://deloplen.com/"], :root a[href^="http://d2.zedo.com/"], :root .rc-cta[data-target], :root [href^="http://go.cm-trk2.com/"], :root a[href^="http://click.payserve.com/"], :root a[href^="https://bs.serving-sys.com"], :root [class^="chp_ads_block"], :root a[href^="http://betahit.click/"], :root a[href^="https://clicks.pipaffiliates.com/"], :root [href^="https://noqreport.com/"] > img, :root a[href^="//wagerprocuratorantiterrorist.com/"], :root a[href^="http://adserver.adreactor.com/"], :root [href^="https://cipledecline.buzz/"], :root a[href^="https://earandmarketing.com/"], :root a[href^="http://adf.ly/?id="], :root [href^="http://homemoviestube.com/"], :root a[href^="http://ad.doubleclick.net/"], :root .commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > .vci, :root a[href^="//syndication.dynsrvtbg.com/"], :root a[href^="//pubads.g.doubleclick.net/"], :root [class^="s2nPlayer"], :root a[href^="https://chaturbate.jjgirls.com/?track="], :root a[href^="https://ausoafab.net/"], :root a[href^="//benoopto.com/"], :root div.fadeInDown[id$="____equal"][class$="____equal"], :root a[href^="https://mediaserver.gvcaffiliates.com/renderBanner.do?"], :root a[href^="https://join.dreamsexworld.com/"], :root a[href^="https://odnxe.lncredlbiedate.com/"], :root a[href^="https://click.linksynergy.com/fs-bin/"], :root a[href^="https://www.adskeeper.com"], :root [href^="https://totlnkcl.com/"], :root a[href^="//agacelebir.com/"], :root a[href^="https://dooloust.net/"], :root [href^="https://www.mypatriotsupply.com/"] > img, :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"], :root [href^="https://secure.bmtmicro.com/servlets/"], :root a[href="//rufflycouncil.com/"], :root a[href*="https://www.sweetdeals.com/"] img, :root div[data-native_ad], :root a[href*=".zlink9.com/"], :root [data-d-ad-id], :root a[href*=".engine.adglare.net/"], :root a[href^="https://a.bestcontentoperation.top/"], :root a[href^="//go.xlviiirdr.com"], :root [data-dynamic-ads], :root a[data-widget-outbrain-redirect^="http://paid.outbrain.com/network/redir?"], :root [data-ad-width], :root [href^="https://join.playboyplus.com/track/"], :root a[data-url^="http://paid.outbrain.com/network/redir?"] + .author, :root a[href^="https://axdsz.pro/"], :root a[href^="http://bodelen.com/"], :root a[data-oburl^="https://paid.outbrain.com/network/redir?"], :root a[href^="https://ptapjmp.com/"], :root DFP-AD, :root a[href^="http://allaptair.club/"], :root a[href^="//go.eabids.com/"], :root a[data-oburl^="http://paid.outbrain.com/network/redir?"], :root [href^="https://cpa.10kfreesilver.com/"], :root a[href^="https://a.bestcontentfood.top/"], :root a[href^="https://reinstandpointdumbest.com/"], :root a[href*="http://MyPillow.com"] > img, :root a[data-obtrack^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://wct.link/"], :root [href^="https://goldforyourfuture.com/clk.trk"] img, :root [href^="https://infinitytrk.com/"], :root [onclick^="location.href='http://www.reimageplus.com"], :root a[href^="https://pl.premium4kflix.website/"], :root [id^="chp_ads_block"], :root a[href^="https://go.julrdr.com/"], :root a[href^="//chrif8kdstie.com/"], :root [id^="section-ad-banner"], :root .commercial-unit-mobile-top > div[data-pla="1"], :root a[href^="https://www.sweetdeals.com"], :root a[href^="https://track.bruceads.com/"], :root a[href^="https://t.aslnk.link/"], :root [href^="https://zstacklife.com/"] img, :root [href^="https://www.restoro.com/"], :root [data-ad-manager-id], :root a[href^="https://fleshlight.sjv.io/"], :root div[id^="zergnet-widget"], :root [href^="https://www.mystore.com/"] > img, :root div[id^="ad-position-"], :root a[href^="http://adultfriendfinder.com/go/page/landing"], :root a[href^="http://affiliate.glbtracker.com/"], :root a[href^="https://leg.xyz/?track="], :root a[href^="http://bc.vc/?r="], :root [href^="https://www.brighteonstore.com/products/"] img, :root a[href^="https://syndication.exoclick.com/"], :root [href^="https://track.fiverr.com/visit/"] > img, :root a[href^="https://go.trackitalltheway.com/"], :root a[href^="https://go.cmtaffiliates.com/"], :root [data-name="adaptiveConstructorAd"], :root [href^="https://optimizedelite.com/"] > img, :root a[href^="https://www.awin1.com/cread.php?awinaffid="], :root a[href^="//thaudray.com/"], :root a[href*=".trust.zone"], :root a[href^="http://trk.mdrtrck.com/"], :root [href^="https://shrugartisticelder.com"], :root div[id^="crt-"][style], :root a[href^="https://s.zlink1.com/"], :root a[href^="http://adultgames.xxx/"], :root a[href^="https://traffic.bannerator.com/"], :root [href^="https://shiftnetwork.infusionsoft.com/go/"] > img, :root a[href^="https://vo2.qrlsx.com/"], :root [href^="https://www.avantlink.com/click.php"] img, :root a[href^="https://losingoldfry.com/"], :root div[id^="ad-inserter-"], :root .scroll-fixable.rail-right > .deals-rail, :root a[href^="https://see.kmisln.com/"], :root [href^="https://routewebtk.com/"], :root a[href^="https://oackoubs.com/"], :root a[href^="https://awptjmp.com/"], :root a[href^="https://go.goasrv.com/"], :root .commercial-unit-mobile-top > .v7hl4d, :root a[href^="https://mediaserver.entainpartners.com/renderBanner.do?"], :root [href^="https://stvkr.com/"], :root a[href^="https://tour.mrskin.com/"], :root a[href^="https://fastestvpn.com/lifetime-special-deal?a_aid="], :root ADS-RIGHT, :root [href^="https://mystore.com/"] > img, :root a[href^="https://moneynow.one/"], :root [href^="https://mypatriotsupply.com/"] > img, :root [href^="https://mylead.global/stl/"] > img, :root .vid-present > .van_vid_carousel__padding, :root a[href^="https://syndication.optimizesrv.com/"], :root [id^="google_ads_iframe"], :root [href^="https://istlnkcl.com/"], :root a[href^="https://playuhd.host/"], :root a[href^="https://5hjdbfjfd5.monster/"], :root [href^="https://www.hostg.xyz/"] > img, :root .section-subheader > .section-hotel-prices-header, :root [href^="http://join.ts-dominopresley.com/"], :root [href^="https://go.affiliatexe.com/"], :root a[href^="https://meet-sexhere.com/"], :root [href^="https://go.4rabettraff.com/"], :root [href^="https://glersakr.com/"], :root a[href^="https://lnkxt.bannerator.com/"], :root [href="https://jdrucker.com/gold"] > img, :root div[id^="ad_position_"], :root a[href^="https://ovb.im/"], :root a[href^="http://hotcandyland.com/partner/"], :root a[href^="https://click.a-ads.com/"], :root a[href^="https://wittered-mainging.com/"], :root [href^="https://engine.gettopple.com/"], :root [href^="https://awbbjmp.com/"], :root a[href^="https://gghf.mobi/"], :root [href^="https://affect3dnetwork.com/track/"], :root a[href^="https://go.currency.com/"], :root [href^="http://www.mypillow.com/"] > img, :root a[href^="//coarsewary.com/"], :root a[href^="https://a.montangop.top/"], :root [href^="https://v.investologic.co.uk/"], :root a[href^="https://dialling-abutory.com/"], :root div[id^="div-ads-"], :root [href^="https://rapidgator.net/article/premium/ref/"], :root a[href^="https://www.sugarinstant.com/?partner_id="], :root a[href^="https://adultfriendfinder.com/go/page/landing"], :root div[id^="advads-"], :root div[data-role="sidebarAd"], :root [href^="https://join3.bannedsextapes.com"], :root div[data-spotim-slot], :root [href^="https://antiagingbed.com/discount/"] > img, :root a[href^="https://go.247traffic.com/"], :root [href^="https://join.girlsoutwest.com/"], :root [href^="http://trafficare.net/"], :root a[href^="https://adserver.adreactor.com/"], :root [href^="http://join.shemalesfromhell.com/"], :root [id^="ad_slider"], :root [href^="https://clk.right-wing-health.com/"], :root a[href^="http://www.adultdvdempire.com/?partner_id="][href*="&utm_"], :root [href^="http://join.shemale.xxx/"], :root [href^="https://ilovemyfreedoms.com/landing-"], :root a[href^="https://ads.betfair.com/redirect.aspx?"], :root a[href^="http://cam4com.go2cloud.org/aff_c?"], :root a[href^="https://www.chngtrack.com/"], :root a[href^="https://cpmspace.com/"], :root [href^="https://freecourseweb.com/"] > .sitefriend, :root a[href^="https://ads.planetwin365affiliate.com/redirect.aspx?"], :root [href^="http://join.rodneymoore.com/"], :root a[href^="https://uncensored3d.com/"], :root a[href^="https://creacdn.top-convert.com/"], :root [href^="https://go.xlrdr.com"], :root [id^="div-gpt-ad"], :root .ob_container .item-container-obpd, :root [href^="http://www.pingperfect.com/aff.php"], :root a[href^="https://scurewall.co/"], :root [name^="google_ads_iframe"], :root a[href^="https://landing1.brazzersnetwork.com"], :root #slashboxes > .deals-rail, :root [href^="http://globsads.com/"], :root [href^="http://mypillow.com/"] > img, :root [href^="//ngeoziadiyc4hi2e.com/"], :root a[href^="https://go.xxxjmp.com"], :root a[href^="https://transfer.xe.com/signup/track/redirect?"], :root #leader-companion > a[href], :root [data-desktop-ad-id], :root [href^="https://wct.link/"], :root [href^="https://traffserve.com/"], :root a[href^="https://1startfiledownload1.com/"], :root a[href^="https://a.adtng.com/"], :root a[href^="http://static.fleshlight.com/images/banners/"], :root [href="https://ourgoldguy.com/contact/"] img, :root [href="https://www.masstortfinancing.com/"] > img, :root [href^="https://goldcometals.com/clk.trk"], :root [data-mobile-ad-id], :root a[href^="http://affiliates.thrixxx.com/"], :root a[href^="https://www.adultempire.com/"][href*="?partner_id="], :root [data-template-type="nativead"], :root a[data-redirect^="this.href='http://paid.outbrain.com/network/redir?"], :root a[href^="https://go.xlivrdr.com"], :root a[href^="https://www.onlineusershielder.com/torrent-guard/?"], :root [data-freestar-ad], :root [data-ad-cls], :root [id^="ad-wrap-"], :root div[id^="taboola-stream-"], :root [href^="https://go.astutelinks.com/"], :root [href^="http://join.hardcoreshemalevideo.com/"], :root a[href^="http://ads2.williamhill.com/redirect.aspx?"], :root a[href^="https://porngames.adult/?SID="], :root a[href^="http://go.247traffic.com/"], :root [href^="http://residenceseeingstanding.com/"], :root div[data-adunit], :root app-large-ad, :root [href^="https://turtlebids.irauctions.com/"] img, :root a[href^="http://www.onclickmega.com/jump/next.php?"], :root .trc_rbox_border_elm .syndicatedItem, :root [class^="amp-ad-"], :root div[id^="_vdo_ads_player_ai_"], :root a[href^="http://enter.anabolic.com/track/"], :root .trc_related_container div[data-item-syndicated="true"], :root a[href^="https://delivery.porn.com/"], :root [href^="https://click2cvs.com/"], :root a[href^="https://a2.adform.net/"], :root a[data-redirect^="http://paid.outbrain.com/network/redir?"], :root [data-revive-zoneid], :root a[href^="https://googleads.g.doubleclick.net/pcs/click"], :root AMP-AD, :root [href^="https://mypillow.com/"] > img, :root [href^="https://ad.admitad.com/"], :root .trc_rbox_div .syndicatedItem, :root a-ad, :root a[href^="http://go.fpmarkets.com/"], :root [data-ad-module], :root .grid > .container > #aside-promotion, :root [href^="https://trackfin.asia/"], :root .plistaList > .plista_widget_underArticle_item[data-type="pet"], :root a[href^="https://spygasm.com/track?"], :root a[href^="https://agacelebir.com/"], :root a[href*="//lkstrck2.com/"], :root .plistaList > .itemLinkPET, :root [href^="http://join.shemalepornstar.com/"], :root [href^="https://affiliate.fastcomet.com/"] > img, :root #atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top, :root [data-advadstrackid], :root a[href^="https://www.googleadservices.com/pagead/aclk?"], :root a[href^="https://awentw.com/"], :root [class^="div-gpt-ad"], :root a[href^="//voyeurhit.com/cs/"], :root a[href^="https://track.wg-aff.com"], :root a[href^="https://nutrientassumptionclaims.com/"], :root div[id^="ad_bnr_"], :root a[href^="https://join.virtuallust3d.com/"], :root a[href^="https://speedsupermarketdonut.com/"], :root #taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top, :root [data-adblockkey], :root a[href^="https://join.virtualtaboo.com/track/"], :root a[href^="http://https://www.get-express-vpn.com/offer/"], :root [id^="ad_sky"], :root a[href^="https://americafirstpolls.com/"] { display: none !important; }</style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="http://190.131.213.204:9090/site/backend/Django/clases/#vistas-basadas-en-clases" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="http://190.131.213.204:9090/site/" title="Guía Académica Universidad de la Guajira - Act. 2022" class="md-header__button md-logo" aria-label="Guía Académica Universidad de la Guajira - Act. 2022" data-md-component="logo">
+      
+  <img src="./Vistas Basadas en Clases - Guía Académica Universidad de la Guajira - Act. 2022_files/Developer-icon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Guía Académica Universidad de la Guajira - Act. 2022
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Vistas Basadas en Clases
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" style="top: 40px;">
+                <div class="md-sidebar__scrollwrap" style="height: 564px;">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="http://190.131.213.204:9090/site/" title="Guía Académica Universidad de la Guajira - Act. 2022" class="md-nav__button md-logo" aria-label="Guía Académica Universidad de la Guajira - Act. 2022" data-md-component="logo">
+      
+  <img src="./Vistas Basadas en Clases - Guía Académica Universidad de la Guajira - Act. 2022_files/Developer-icon.png" alt="logo">
+
+    </a>
+    Guía Académica Universidad de la Guajira - Act. 2022
+  </label>
+  
+  <ul class="md-nav__list">
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/" class="md-nav__link">
+        Inicio
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Linux en Windows con WSL
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Linux en Windows con WSL" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Linux en Windows con WSL
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/wsl/linux/" class="md-nav__link">
+        Instalación y Herramientas de Software
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/wsl/comandos-basicos/" class="md-nav__link">
+        Comandos Basicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/wsl/actividad/" class="md-nav__link">
+        Actividad
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Lenguajes de Programación
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Lenguajes de Programación" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Lenguajes de Programación
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/javascript/javascript/" class="md-nav__link">
+        JavaScript
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          TypeScript
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="TypeScript" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          TypeScript
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/typescript/introduccion/" class="md-nav__link">
+        Introducción
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/typescript/bloques/" class="md-nav__link">
+        Bloques de código y estructuras de control
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_3" type="checkbox" id="__nav_3_2_3">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_3">
+          Colecciones
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Colecciones" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Colecciones
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/typescript/arrays/" class="md-nav__link">
+        Arrays
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/typescript/tuplas/" class="md-nav__link">
+        Tuplas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/typescript/diccionarios/" class="md-nav__link">
+        Diccionarios
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/typescript/funciones/" class="md-nav__link">
+        Funciones
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/typescript/objetos/" class="md-nav__link">
+        Poo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/typescript/solucion/" class="md-nav__link">
+        Solución Actividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/typescript/bibliografia/" class="md-nav__link">
+        Bliografía
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          Python
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Python" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Python
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/python/introduccion/" class="md-nav__link">
+        Introducción
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/python/bloques/" class="md-nav__link">
+        Bloques de código y estructuras de control
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_3" type="checkbox" id="__nav_3_3_3">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_3">
+          Colecciones
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Colecciones" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Colecciones
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/python/secuencias/" class="md-nav__link">
+        Secuencias
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/python/listas/" class="md-nav__link">
+        Listas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/python/tuplas/" class="md-nav__link">
+        Tuplas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/python/diccionarios/" class="md-nav__link">
+        Diccionarios
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/python/funciones/" class="md-nav__link">
+        Funciones
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/python/objetos/" class="md-nav__link">
+        Poo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/programacion/python/solucion/" class="md-nav__link">
+        Solución Actividades
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked="">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Backend
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Backend" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Backend
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_1">
+          NodeJS
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="NodeJS" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          NodeJS
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/backend/NodeJs/introduccion/" class="md-nav__link">
+        Introducción
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/backend/NodeJs/modelos/" class="md-nav__link">
+        Modelos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/backend/NodeJs/crud/" class="md-nav__link">
+        CRUD
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/backend/NodeJs/cors_nodejs/" class="md-nav__link">
+        Configurar Paquete CORS
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" checked="">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          Django
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Django" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Django
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+          <li class="md-nav__item">
+            <a href="index.html" class="md-nav__link">
+              Introducción a Django
+            </a>
+          </li>
+        
+          <li class="md-nav__item md-nav__item--active">
+            
+            <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+            
+              <label class="md-nav__link md-nav__link--active" for="__toc">
+                Creación de Aplicaciones
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+            <a href="Creación de Aplicaciones - Guía Académica Universidad de la Guajira - Act. 2022.html" class="md-nav__link md-nav__link--active">
+              Creación de Aplicaciones
+            </a>
+      
+      <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+        
+          <label class="md-nav__title" for="__toc">
+            <span class="md-nav__icon md-icon"></span>
+            Table of contents
+          </label>
+          <ul class="md-nav__list" data-md-component="toc">
+            
+              <li class="md-nav__item">
+        <a href="http://190.131.213.204:9090/site/backend/Django/aplicaciones/#_1" class="md-nav__link">
+          
+        </a>
+        
+      </li>
+            
+              <li class="md-nav__item">
+        <a href="http://190.131.213.204:9090/site/backend/Django/aplicaciones/#_2" class="md-nav__link">
+          
+        </a>
+        
+      </li>
+            
+              <li class="md-nav__item">
+        <a href="http://190.131.213.204:9090/site/backend/Django/aplicaciones/#conectar-el-mapeador-url-aplicacion-ventas" class="md-nav__link">
+          Conectar el mapeador URL - Aplicacion Ventas
+        </a>
+        
+          <nav class="md-nav" aria-label="Conectar el mapeador URL - Aplicacion Ventas">
+            <ul class="md-nav__list">
+              
+                <li class="md-nav__item">
+        <a href="http://190.131.213.204:9090/site/backend/Django/aplicaciones/#probar-las-vistas-en-la-aplicacion-ventas" class="md-nav__link">
+          Probar las Vistas en la aplicación ventas
+        </a>
+        
+      </li>
+              
+                <li class="md-nav__item">
+        <a href="http://190.131.213.204:9090/site/backend/Django/aplicaciones/#probar-las-vistas-en-la-aplicacion-productos" class="md-nav__link">
+          Probar las Vistas en la aplicación productos
+        </a>
+        
+      </li>
+              
+                <li class="md-nav__item">
+        <a href="http://190.131.213.204:9090/site/backend/Django/aplicaciones/#probar-las-vistas-en-la-aplicacion-clientes" class="md-nav__link">
+          Probar las Vistas en la aplicación clientes
+        </a>
+        
+      </li>
+              
+            </ul>
+          </nav>
+        
+      </li>
+            
+              <li class="md-nav__item">
+        <a href="http://190.131.213.204:9090/site/backend/Django/aplicaciones/#_3" class="md-nav__link">
+          
+        </a>
+        
+      </li>
+            
+          </ul>
+        
+      </nav>
+            
+          </li>
+        
+          <li class="md-nav__item">
+            <a href="Creación de Modelos - Guía Académica Universidad de la Guajira - Act. 2022.html" class="md-nav__link">
+              Creación de Modelos
+            </a>
+          </li>
+        
+          <li class="md-nav__item">
+            <a href="Administración de Modelos - Guía Académica Universidad de la Guajira - Act. 2022.html" class="md-nav__link">
+              Administración de Modelos
+            </a>
+          </li>
+        
+          <li class="md-nav__item">
+            <a href="Rest FrameWork y Vistas - Guía Académica Universidad de la Guajira - Act. 2022.html" class="md-nav__link">
+              Rest FrameWork y Vistas
+            </a>
+          </li>
+        
+          <li class="md-nav__item">
+            <a href="Vistas Basadas en Clases - Guía Académica Universidad de la Guajira - Act. 2022.html" class="md-nav__link">
+              Vistas Basadas en Clases
+            </a>
+          </li>
+        
+          <li class="md-nav__item">
+            <a href="Configurar Paquete CORS - Guía Académica Universidad de la Guajira - Act. 2022.html" class="md-nav__link">
+              Configurar Paquete CORS
+            </a>
+          </li>
+      
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Frontend
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Frontend" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Frontend
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_1" type="checkbox" id="__nav_5_1">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_1">
+          Html5
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Html5" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          Html5
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/html5/html5/" class="md-nav__link">
+        Introducción de Html5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/html5/estructura/" class="md-nav__link">
+        Estructura Html5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/html5/listas/" class="md-nav__link">
+        Listas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/html5/imagenes/" class="md-nav__link">
+        Imagenes y Objetos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/html5/tablas/" class="md-nav__link">
+        Tablas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/html5/formularios/" class="md-nav__link">
+        Formularios
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/html5/layout/" class="md-nav__link">
+        Maquetación y Layouts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/html5/bibliografia/" class="md-nav__link">
+        Bibliografía
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_2">
+          CSS3
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="CSS3" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          CSS3
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/css3/introduccion/" class="md-nav__link">
+        Introducion a CSS3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/css3/modeloCajas/" class="md-nav__link">
+        Modelo de Cajas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/css3/visualizacion/" class="md-nav__link">
+        Posicionamiento y Visualización
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/css3/texto/" class="md-nav__link">
+        Texto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/css3/enlaces/" class="md-nav__link">
+        Enlaces
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/css3/imagenes/" class="md-nav__link">
+        Imagenes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/css3/listas/" class="md-nav__link">
+        Listas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/css3/tablas/" class="md-nav__link">
+        Tablas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/css3/formularios/" class="md-nav__link">
+        Formularios
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/css3/layouts/" class="md-nav__link">
+        Layouts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/css3/solucion/" class="md-nav__link">
+        Solución Actividades
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/flexbox/flexbox/" class="md-nav__link">
+        FlexBox
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/cssgrid/cssgrid/" class="md-nav__link">
+        CSSGrid
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/bootstrap/bootstrap/" class="md-nav__link">
+        Bootstrap
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6" type="checkbox" id="__nav_5_6">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_6">
+          Angular
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Angular" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_6">
+          <span class="md-nav__icon md-icon"></span>
+          Angular
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/angular/introduccion/" class="md-nav__link">
+        Intrducción
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/angular/instalacion/" class="md-nav__link">
+        Instalación
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/angular/componentes/" class="md-nav__link">
+        Componentes Layouts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/angular/primeNg/" class="md-nav__link">
+        UI PrimeNg Angular
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6_5" type="checkbox" id="__nav_5_6_5">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_6_5">
+          APIS con Django o NodeJs
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="APIS con Django o NodeJs" data-md-level="3">
+        <label class="md-nav__title" for="__nav_5_6_5">
+          <span class="md-nav__icon md-icon"></span>
+          APIS con Django o NodeJs
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/angular/routerlink/" class="md-nav__link">
+        Navegar entre rutas de Angular
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/frontend/angular/apis/" class="md-nav__link">
+        Consumir APIs
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Base de datos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Base de datos" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Base de datos
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/bd/mysql/mysql/" class="md-nav__link">
+        MySQL
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/bd/postgresql/postgresql/" class="md-nav__link">
+        PostgreSQL
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/bd/sequelize/sequelize/" class="md-nav__link">
+        Sequelize
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/bd/ormdjango/ormdjango/" class="md-nav__link">
+        ORM Django
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/bd/mongodb/mongodb/" class="md-nav__link">
+        MongoDB
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Maestría Gestión de la Innovación
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Maestría Gestión de la Innovación" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Maestría Gestión de la Innovación
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/mgti/gestionInnovacion/gestionInnovacion/" class="md-nav__link">
+        Gestion de la Innovacion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_2" type="checkbox" id="__nav_7_2">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_2">
+          Marketing Digital
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Marketing Digital" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_2">
+          <span class="md-nav__icon md-icon"></span>
+          Marketing Digital
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_2_1" type="checkbox" id="__nav_7_2_1">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_2_1">
+          Presentaciones
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Presentaciones" data-md-level="3">
+        <label class="md-nav__title" for="__nav_7_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Presentaciones
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/mgti/marketing/sesioni/" class="md-nav__link">
+        Presentacion I
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/mgti/marketing/sesionii/" class="md-nav__link">
+        Presentacion II
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/mgti/marketing/sesioniii/" class="md-nav__link">
+        Presentacion III
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/mgti/marketing/sesioniv/" class="md-nav__link">
+        Presentacion IV
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/mgti/marketing/sesionv/" class="md-nav__link">
+        Presentacion V
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/mgti/marketing/sesionvi/" class="md-nav__link">
+        Presentacion VI
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_2_2" type="checkbox" id="__nav_7_2_2">
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_2_2">
+          WordPress
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="WordPress" data-md-level="3">
+        <label class="md-nav__title" for="__nav_7_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          WordPress
+        </label>
+        <ul class="md-nav__list">
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/mgti/marketing/instalacion/" class="md-nav__link">
+        Instalación
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/mgti/marketing/configuracion/" class="md-nav__link">
+        Configuración
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/mgti/marketing/minegocio/" class="md-nav__link">
+        Google Bussines
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/mgti/marketing/console/" class="md-nav__link">
+        Google Console Search Y Analytics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://190.131.213.204:9090/site/mgti/marketing/ruta53/" class="md-nav__link">
+        Servicio web DNS en la nube
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" style="top: 40px;">
+                <div class="md-sidebar__scrollwrap" style="height: 564px;">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc">
+      
+        <li class="md-nav__item">
+  <a href="http://190.131.213.204:9090/site/backend/Django/clases/#modelo-cliente" class="md-nav__link">
+    Modelo Cliente
+  </a>
+  
+    <nav class="md-nav" aria-label="Modelo Cliente">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="http://190.131.213.204:9090/site/backend/Django/clases/#uso-de-vistas-genericas-basadas-en-clases" class="md-nav__link">
+    Uso de vistas genéricas basadas en clases
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="http://190.131.213.204:9090/site/backend/Django/clases/#uso-de-mezclas-de-clases" class="md-nav__link">
+    Uso de Mezclas de clases
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="http://190.131.213.204:9090/site/backend/Django/clases/#reescribiendo-nuestra-api-usando-vistas-basadas-en-clases" class="md-nav__link">
+    Reescribiendo nuestra API usando vistas basadas en clases
+  </a>
+  
+    <nav class="md-nav" aria-label="Reescribiendo nuestra API usando vistas basadas en clases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="http://190.131.213.204:9090/site/backend/Django/clases/#validaciones-de-los-atributos" class="md-nav__link">
+    Validaciones de los Atributos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="http://190.131.213.204:9090/site/backend/Django/clases/#personalizacion-de-los-atributos" class="md-nav__link">
+    Personalizacion de los Atributos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="http://190.131.213.204:9090/site/backend/Django/clases/#envolviendo-vistas-en-api-con-apiview" class="md-nav__link">
+    Envolviendo Vistas en API - Con @apiview
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="vistas-basadas-en-clases">Vistas basadas en clases</h1>
+<h2 id="modelo-cliente">Modelo Cliente</h2>
+<p>También podemos escribir nuestras vistas de API utilizando vistas basadas en clases, en lugar de vistas basadas en funciones. Como veremos, este es un patrón poderoso que nos permite reutilizar la funcionalidad común y nos ayuda a mantener nuestro código Limpio.</p>
+<h3 id="uso-de-vistas-genericas-basadas-en-clases">Uso de vistas genéricas basadas en clases</h3>
+<p>En el archivo <code>Apps/clientes/views.py</code> colocamos el código correspondiente para realizar el CRUD completo.</p>
+<div class="highlight"><pre id="__code_1"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_1 &gt; code"></button><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-1"></a><span class="kn">from</span> <span class="nn">django.shortcuts</span> <span class="kn">import</span> <span class="n">render</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-2"></a><span class="kn">from</span> <span class="nn">django.http</span> <span class="kn">import</span> <span class="n">Http404</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-3"></a>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-4"></a><span class="kn">from</span> <span class="nn">rest_framework.response</span> <span class="kn">import</span> <span class="n">Response</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-5"></a><span class="kn">from</span> <span class="nn">rest_framework</span> <span class="kn">import</span> <span class="n">generics</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-6"></a>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-7"></a><span class="kn">from</span> <span class="nn">rest_framework</span> <span class="kn">import</span> <span class="n">status</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-8"></a>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-9"></a><span class="kn">from</span> <span class="nn">Apps.clientes.models</span> <span class="kn">import</span> <span class="n">Cliente</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-10"></a><span class="kn">from</span> <span class="nn">Apps.clientes.serializers</span> <span class="kn">import</span> <span class="n">ClienteSerializer</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-11"></a>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-12"></a><span class="c1"># Create your views here.</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-13"></a>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-14"></a>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-15"></a><span class="k">class</span> <span class="nc">ClienteList</span><span class="p">(</span><span class="n">generics</span><span class="o">.</span><span class="n">ListCreateAPIView</span><span class="p">):</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-16"></a>    <span class="sd">"""</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-17"></a><span class="sd">    Lista de Clientes</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-18"></a><span class="sd">    """</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-19"></a>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-20"></a>    <span class="n">queryset</span> <span class="o">=</span> <span class="n">Cliente</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-21"></a>    <span class="n">serializer_class</span> <span class="o">=</span> <span class="n">ClienteSerializer</span>
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-22"></a>
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-23"></a>
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-24"></a>
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-25"></a><span class="k">class</span> <span class="nc">ClienteDetail</span><span class="p">(</span><span class="n">generics</span><span class="o">.</span><span class="n">RetrieveUpdateDestroyAPIView</span><span class="p">):</span>
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-26"></a>    <span class="sd">"""</span>
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-27"></a><span class="sd">    Retrieve, update or delete de los clientes por pk</span>
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-28"></a><span class="sd">    """</span>
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-29"></a>    <span class="n">queryset</span> <span class="o">=</span> <span class="n">Cliente</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-0-30"></a>    <span class="n">serializer_class</span> <span class="o">=</span> <span class="n">ClienteSerializer</span>
+</code></pre></div>
+<p>Código en el archivo <code>Apps/clientes/serializers.py</code></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-1"></a><span class="kn">from</span> <span class="nn">dataclasses</span> <span class="kn">import</span> <span class="n">field</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-2"></a><span class="kn">from</span> <span class="nn">statistics</span> <span class="kn">import</span> <span class="n">mode</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-3"></a>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-4"></a><span class="kn">from</span> <span class="nn">rest_framework</span> <span class="kn">import</span> <span class="n">serializers</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-5"></a><span class="kn">from</span> <span class="nn">Apps.clientes.models</span> <span class="kn">import</span> <span class="n">Cliente</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-6"></a>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-7"></a><span class="k">class</span> <span class="nc">ClienteSerializer</span><span class="p">(</span><span class="n">serializers</span><span class="o">.</span><span class="n">ModelSerializer</span><span class="p">):</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-8"></a>    <span class="c1"># len_nombreCliente = serializers.SerializerMethodField()</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-9"></a>    <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-10"></a>        <span class="n">model</span> <span class="o">=</span> <span class="n">Cliente</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-11"></a>        <span class="n">fields</span> <span class="o">=</span> <span class="s2">"__all__"</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-12"></a>        <span class="c1"># exclude = ['passwordCliente']</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-13"></a>        <span class="c1"># fields = (</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-14"></a>        <span class="c1">#     'pk',</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-15"></a>        <span class="c1">#     'nombreCliente',</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-16"></a>        <span class="c1">#     'direccionCliente',</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-17"></a>        <span class="c1">#     'telefonoCliente',</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-18"></a>        <span class="c1">#     'correoCliente',</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-19"></a>        <span class="c1">#     'passwordCliente',</span>
+<a id="__codelineno-1-20" name="__codelineno-1-20" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-20"></a>        <span class="c1"># )</span>
+<a id="__codelineno-1-21" name="__codelineno-1-21" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-21"></a>
+<a id="__codelineno-1-22" name="__codelineno-1-22" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-22"></a>    <span class="c1"># def get_len_nombreCliente(self, object):</span>
+<a id="__codelineno-1-23" name="__codelineno-1-23" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-23"></a>    <span class="c1">#     length = len(object.nombreCliente)</span>
+<a id="__codelineno-1-24" name="__codelineno-1-24" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-24"></a>    <span class="c1">#     return length</span>
+<a id="__codelineno-1-25" name="__codelineno-1-25" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-25"></a>
+<a id="__codelineno-1-26" name="__codelineno-1-26" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-26"></a>    <span class="c1"># def validate(self, data):</span>
+<a id="__codelineno-1-27" name="__codelineno-1-27" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-27"></a>    <span class="c1">#     if data['nombreCliente'] == data['direccionCliente']:</span>
+<a id="__codelineno-1-28" name="__codelineno-1-28" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-28"></a>    <span class="c1">#         raise serializers.ValidationError('Nombre y Correo No pueden ser iguales')</span>
+<a id="__codelineno-1-29" name="__codelineno-1-29" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-29"></a>    <span class="c1">#     else:</span>
+<a id="__codelineno-1-30" name="__codelineno-1-30" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-30"></a>    <span class="c1">#         return data</span>
+<a id="__codelineno-1-31" name="__codelineno-1-31" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-31"></a>
+<a id="__codelineno-1-32" name="__codelineno-1-32" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-32"></a>    <span class="k">def</span> <span class="nf">validate_nombreCliente</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+<a id="__codelineno-1-33" name="__codelineno-1-33" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-33"></a>        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">value</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">:</span>
+<a id="__codelineno-1-34" name="__codelineno-1-34" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-34"></a>            <span class="k">raise</span> <span class="n">serializers</span><span class="o">.</span><span class="n">ValidationError</span><span class="p">(</span><span class="s1">'Nombre no puede ser tan corto'</span><span class="p">)</span>
+<a id="__codelineno-1-35" name="__codelineno-1-35" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-35"></a>        <span class="k">else</span><span class="p">:</span>
+<a id="__codelineno-1-36" name="__codelineno-1-36" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-36"></a>            <span class="k">return</span> <span class="n">value</span>
+<a id="__codelineno-1-37" name="__codelineno-1-37" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-37"></a>
+<a id="__codelineno-1-38" name="__codelineno-1-38" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-38"></a>    <span class="k">def</span> <span class="nf">validate_passwordCliente</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+<a id="__codelineno-1-39" name="__codelineno-1-39" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-39"></a>        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">value</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">8</span><span class="p">:</span>
+<a id="__codelineno-1-40" name="__codelineno-1-40" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-40"></a>            <span class="k">raise</span> <span class="n">serializers</span><span class="o">.</span><span class="n">ValidationError</span><span class="p">(</span><span class="s1">'El Password debe tener mayor de 8 caracteres'</span><span class="p">)</span>
+<a id="__codelineno-1-41" name="__codelineno-1-41" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-41"></a>        <span class="k">else</span><span class="p">:</span>
+<a id="__codelineno-1-42" name="__codelineno-1-42" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-1-42"></a>            <span class="k">return</span> <span class="n">value</span>
+</code></pre></div>
+<p>Código en el archivo <code>Apps/clientes/urls.py</code></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-2-1"></a><span class="kn">from</span> <span class="nn">django.urls</span> <span class="kn">import</span> <span class="n">path</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-2-2"></a><span class="kn">from</span> <span class="nn">Apps.clientes.views</span> <span class="kn">import</span> <span class="n">ClienteList</span><span class="p">,</span> <span class="n">ClienteDetail</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-2-4"></a><span class="n">app_name</span> <span class="o">=</span> <span class="s2">"clientes"</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-2-5"></a><span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-2-6"></a>    <span class="n">path</span><span class="p">(</span><span class="s1">''</span><span class="p">,</span> <span class="n">ClienteList</span><span class="o">.</span><span class="n">as_view</span><span class="p">()),</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-2-7"></a>    <span class="n">path</span><span class="p">(</span><span class="s1">'&lt;int:pk&gt;'</span><span class="p">,</span> <span class="n">ClienteDetail</span><span class="o">.</span><span class="n">as_view</span><span class="p">()),</span>
+</code></pre></div>
+<h3 id="uso-de-mezclas-de-clases">Uso de Mezclas de clases</h3>
+<p>Una de las grandes ventajas de usar vistas basadas en clases es que nos permite componer fácilmente fragmentos de comportamiento reutilizables.</p>
+<p>Las operaciones de creación/recuperación/actualización/eliminación que hemos estado usando hasta ahora serán bastante similares para cualquier vista de API respaldada por modelo que creemos. Esos bits de comportamiento común se implementan en las clases mixtas del marco REST.</p>
+<p>Echemos un vistazo a cómo podemos componer las vistas usando las clases mixin. Aquí está nuestro <code>Apps/clientes/views.py</code></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-1"></a><span class="kn">from</span> <span class="nn">django.shortcuts</span> <span class="kn">import</span> <span class="n">render</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-2"></a><span class="kn">from</span> <span class="nn">django.http</span> <span class="kn">import</span> <span class="n">Http404</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-3"></a>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-4"></a><span class="kn">from</span> <span class="nn">rest_framework.response</span> <span class="kn">import</span> <span class="n">Response</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-5"></a><span class="kn">from</span> <span class="nn">rest_framework</span> <span class="kn">import</span> <span class="n">generics</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-6"></a><span class="kn">from</span> <span class="nn">rest_framework</span> <span class="kn">import</span> <span class="n">mixins</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-7"></a>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-8"></a><span class="kn">from</span> <span class="nn">rest_framework</span> <span class="kn">import</span> <span class="n">status</span>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-9"></a>
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-10"></a><span class="kn">from</span> <span class="nn">Apps.clientes.models</span> <span class="kn">import</span> <span class="n">Cliente</span>
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-11"></a><span class="kn">from</span> <span class="nn">Apps.clientes.serializers</span> <span class="kn">import</span> <span class="n">ClienteSerializer</span>
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-12"></a>
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-13"></a><span class="c1"># Create your views here.</span>
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-14"></a>
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-15"></a>
+<a id="__codelineno-3-16" name="__codelineno-3-16" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-16"></a><span class="k">class</span> <span class="nc">ClienteList</span><span class="p">(</span><span class="n">mixins</span><span class="o">.</span><span class="n">ListModelMixin</span><span class="p">,</span>
+<a id="__codelineno-3-17" name="__codelineno-3-17" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-17"></a>                  <span class="n">mixins</span><span class="o">.</span><span class="n">CreateModelMixin</span><span class="p">,</span>
+<a id="__codelineno-3-18" name="__codelineno-3-18" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-18"></a>                  <span class="n">generics</span><span class="o">.</span><span class="n">GenericAPIView</span><span class="p">):</span>
+<a id="__codelineno-3-19" name="__codelineno-3-19" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-19"></a>    <span class="sd">"""</span>
+<a id="__codelineno-3-20" name="__codelineno-3-20" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-20"></a><span class="sd">    Lista de Clientes</span>
+<a id="__codelineno-3-21" name="__codelineno-3-21" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-21"></a><span class="sd">    """</span>
+<a id="__codelineno-3-22" name="__codelineno-3-22" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-22"></a>
+<a id="__codelineno-3-23" name="__codelineno-3-23" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-23"></a>    <span class="n">queryset</span> <span class="o">=</span> <span class="n">Cliente</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+<a id="__codelineno-3-24" name="__codelineno-3-24" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-24"></a>    <span class="n">serializer_class</span> <span class="o">=</span> <span class="n">ClienteSerializer</span>
+<a id="__codelineno-3-25" name="__codelineno-3-25" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-25"></a>
+<a id="__codelineno-3-26" name="__codelineno-3-26" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-26"></a>    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<a id="__codelineno-3-27" name="__codelineno-3-27" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-27"></a>        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">list</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+<a id="__codelineno-3-28" name="__codelineno-3-28" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-28"></a>
+<a id="__codelineno-3-29" name="__codelineno-3-29" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-29"></a>    <span class="k">def</span> <span class="nf">post</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<a id="__codelineno-3-30" name="__codelineno-3-30" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-30"></a>        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+<a id="__codelineno-3-31" name="__codelineno-3-31" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-31"></a>
+<a id="__codelineno-3-32" name="__codelineno-3-32" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-32"></a>
+<a id="__codelineno-3-33" name="__codelineno-3-33" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-33"></a>
+<a id="__codelineno-3-34" name="__codelineno-3-34" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-34"></a><span class="k">class</span> <span class="nc">ClienteDetail</span><span class="p">(</span><span class="n">mixins</span><span class="o">.</span><span class="n">RetrieveModelMixin</span><span class="p">,</span>
+<a id="__codelineno-3-35" name="__codelineno-3-35" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-35"></a>                    <span class="n">mixins</span><span class="o">.</span><span class="n">UpdateModelMixin</span><span class="p">,</span>
+<a id="__codelineno-3-36" name="__codelineno-3-36" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-36"></a>                    <span class="n">mixins</span><span class="o">.</span><span class="n">DestroyModelMixin</span><span class="p">,</span>
+<a id="__codelineno-3-37" name="__codelineno-3-37" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-37"></a>                    <span class="n">generics</span><span class="o">.</span><span class="n">GenericAPIView</span><span class="p">):</span>
+<a id="__codelineno-3-38" name="__codelineno-3-38" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-38"></a>    <span class="sd">"""</span>
+<a id="__codelineno-3-39" name="__codelineno-3-39" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-39"></a><span class="sd">    Retrieve, update or delete de los clientes por pk</span>
+<a id="__codelineno-3-40" name="__codelineno-3-40" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-40"></a><span class="sd">    """</span>
+<a id="__codelineno-3-41" name="__codelineno-3-41" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-41"></a>    <span class="n">queryset</span> <span class="o">=</span> <span class="n">Cliente</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+<a id="__codelineno-3-42" name="__codelineno-3-42" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-42"></a>    <span class="n">serializer_class</span> <span class="o">=</span> <span class="n">ClienteSerializer</span>
+<a id="__codelineno-3-43" name="__codelineno-3-43" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-43"></a>
+<a id="__codelineno-3-44" name="__codelineno-3-44" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-44"></a>    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<a id="__codelineno-3-45" name="__codelineno-3-45" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-45"></a>        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">retrieve</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+<a id="__codelineno-3-46" name="__codelineno-3-46" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-46"></a>
+<a id="__codelineno-3-47" name="__codelineno-3-47" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-47"></a>    <span class="k">def</span> <span class="nf">put</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<a id="__codelineno-3-48" name="__codelineno-3-48" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-48"></a>        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+<a id="__codelineno-3-49" name="__codelineno-3-49" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-49"></a>
+<a id="__codelineno-3-50" name="__codelineno-3-50" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-50"></a>    <span class="k">def</span> <span class="nf">delete</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<a id="__codelineno-3-51" name="__codelineno-3-51" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-3-51"></a>        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">destroy</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</code></pre></div>
+<p>Los archivos:</p>
+<p><code>Apps/clientes/serializers.py</code></p>
+<p><code>Apps/clientes/urls.py</code></p>
+<p>Quedan exactamente igual al método anterior.</p>
+<h3 id="reescribiendo-nuestra-api-usando-vistas-basadas-en-clases">Reescribiendo nuestra API usando vistas basadas en clases</h3>
+<p>En el archivo <code>Apps/clientes/views.py</code> colocamos el código correspondiente para realizar el CRUD completo.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-1"></a><span class="kn">from</span> <span class="nn">django.shortcuts</span> <span class="kn">import</span> <span class="n">render</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-2"></a><span class="kn">from</span> <span class="nn">django.http</span> <span class="kn">import</span> <span class="n">Http404</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-3"></a>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-4"></a><span class="kn">from</span> <span class="nn">rest_framework.response</span> <span class="kn">import</span> <span class="n">Response</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-5"></a><span class="kn">from</span> <span class="nn">rest_framework.views</span> <span class="kn">import</span> <span class="n">APIView</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-6"></a>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-7"></a><span class="kn">from</span> <span class="nn">rest_framework</span> <span class="kn">import</span> <span class="n">status</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-8"></a>
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-9"></a><span class="kn">from</span> <span class="nn">Apps.clientes.models</span> <span class="kn">import</span> <span class="n">Cliente</span>
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-10"></a><span class="kn">from</span> <span class="nn">Apps.clientes.serializers</span> <span class="kn">import</span> <span class="n">ClienteSerializer</span>
+<a id="__codelineno-4-11" name="__codelineno-4-11" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-11"></a>
+<a id="__codelineno-4-12" name="__codelineno-4-12" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-12"></a><span class="c1"># Create your views here.</span>
+<a id="__codelineno-4-13" name="__codelineno-4-13" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-13"></a>
+<a id="__codelineno-4-14" name="__codelineno-4-14" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-14"></a>
+<a id="__codelineno-4-15" name="__codelineno-4-15" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-15"></a><span class="k">class</span> <span class="nc">ClienteList</span><span class="p">(</span><span class="n">APIView</span><span class="p">):</span>
+<a id="__codelineno-4-16" name="__codelineno-4-16" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-16"></a>    <span class="sd">"""</span>
+<a id="__codelineno-4-17" name="__codelineno-4-17" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-17"></a><span class="sd">    Lista de Clientes</span>
+<a id="__codelineno-4-18" name="__codelineno-4-18" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-18"></a><span class="sd">    """</span>
+<a id="__codelineno-4-19" name="__codelineno-4-19" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-19"></a>
+<a id="__codelineno-4-20" name="__codelineno-4-20" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-20"></a>    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<a id="__codelineno-4-21" name="__codelineno-4-21" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-21"></a>        <span class="n">clientes</span> <span class="o">=</span> <span class="n">Cliente</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+<a id="__codelineno-4-22" name="__codelineno-4-22" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-22"></a>        <span class="n">serializer</span> <span class="o">=</span> <span class="n">ClienteSerializer</span><span class="p">(</span><span class="n">clientes</span><span class="p">,</span> <span class="n">many</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<a id="__codelineno-4-23" name="__codelineno-4-23" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-23"></a>        <span class="nb">print</span><span class="p">(</span><span class="n">clientes</span><span class="p">)</span>
+<a id="__codelineno-4-24" name="__codelineno-4-24" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-24"></a>        <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">serializer</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+<a id="__codelineno-4-25" name="__codelineno-4-25" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-25"></a>
+<a id="__codelineno-4-26" name="__codelineno-4-26" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-26"></a>    <span class="k">def</span> <span class="nf">post</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<a id="__codelineno-4-27" name="__codelineno-4-27" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-27"></a>        <span class="n">serializer</span> <span class="o">=</span> <span class="n">ClienteSerializer</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+<a id="__codelineno-4-28" name="__codelineno-4-28" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-28"></a>        <span class="k">if</span> <span class="n">serializer</span><span class="o">.</span><span class="n">is_valid</span><span class="p">():</span>
+<a id="__codelineno-4-29" name="__codelineno-4-29" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-29"></a>            <span class="n">serializer</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
+<a id="__codelineno-4-30" name="__codelineno-4-30" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-30"></a>            <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">serializer</span><span class="o">.</span><span class="n">data</span><span class="p">,</span>
+<a id="__codelineno-4-31" name="__codelineno-4-31" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-31"></a>                            <span class="n">status</span><span class="o">=</span><span class="n">status</span><span class="o">.</span><span class="n">HTTP_201_CREATED</span><span class="p">)</span>
+<a id="__codelineno-4-32" name="__codelineno-4-32" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-32"></a>        <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">serializer</span><span class="o">.</span><span class="n">errors</span><span class="p">,</span> <span class="n">status</span><span class="o">=</span><span class="n">status</span><span class="o">.</span><span class="n">HTTP_400_BAD_REQUEST</span><span class="p">)</span>
+<a id="__codelineno-4-33" name="__codelineno-4-33" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-33"></a>
+<a id="__codelineno-4-34" name="__codelineno-4-34" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-34"></a>
+<a id="__codelineno-4-35" name="__codelineno-4-35" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-35"></a><span class="k">class</span> <span class="nc">ClienteDetail</span><span class="p">(</span><span class="n">APIView</span><span class="p">):</span>
+<a id="__codelineno-4-36" name="__codelineno-4-36" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-36"></a>    <span class="sd">"""</span>
+<a id="__codelineno-4-37" name="__codelineno-4-37" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-37"></a><span class="sd">    Retrieve, update or delete de los clientes por pk</span>
+<a id="__codelineno-4-38" name="__codelineno-4-38" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-38"></a><span class="sd">    """</span>
+<a id="__codelineno-4-39" name="__codelineno-4-39" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-39"></a>    <span class="k">def</span> <span class="nf">get_object</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">pk</span><span class="p">):</span>
+<a id="__codelineno-4-40" name="__codelineno-4-40" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-40"></a>        <span class="c1"># Returns an object instance that should </span>
+<a id="__codelineno-4-41" name="__codelineno-4-41" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-41"></a>        <span class="c1"># be used for detail views.</span>
+<a id="__codelineno-4-42" name="__codelineno-4-42" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-42"></a>        <span class="k">try</span><span class="p">:</span>
+<a id="__codelineno-4-43" name="__codelineno-4-43" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-43"></a>            <span class="k">return</span> <span class="n">Cliente</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">pk</span><span class="o">=</span><span class="n">pk</span><span class="p">)</span>
+<a id="__codelineno-4-44" name="__codelineno-4-44" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-44"></a>        <span class="k">except</span> <span class="n">Cliente</span><span class="o">.</span><span class="n">DoesNotExist</span><span class="p">:</span>
+<a id="__codelineno-4-45" name="__codelineno-4-45" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-45"></a>            <span class="k">raise</span> <span class="n">Http404</span>
+<a id="__codelineno-4-46" name="__codelineno-4-46" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-46"></a>
+<a id="__codelineno-4-47" name="__codelineno-4-47" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-47"></a>    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">pk</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<a id="__codelineno-4-48" name="__codelineno-4-48" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-48"></a>        <span class="n">cliente</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_object</span><span class="p">(</span><span class="n">pk</span><span class="p">)</span>
+<a id="__codelineno-4-49" name="__codelineno-4-49" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-49"></a>        <span class="n">serializer</span> <span class="o">=</span> <span class="n">ClienteSerializer</span><span class="p">(</span><span class="n">cliente</span><span class="p">)</span>
+<a id="__codelineno-4-50" name="__codelineno-4-50" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-50"></a>        <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">serializer</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+<a id="__codelineno-4-51" name="__codelineno-4-51" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-51"></a>
+<a id="__codelineno-4-52" name="__codelineno-4-52" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-52"></a>    <span class="k">def</span> <span class="nf">put</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">pk</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<a id="__codelineno-4-53" name="__codelineno-4-53" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-53"></a>        <span class="n">cliente</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_object</span><span class="p">(</span><span class="n">pk</span><span class="p">)</span>
+<a id="__codelineno-4-54" name="__codelineno-4-54" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-54"></a>        <span class="n">serializer</span> <span class="o">=</span> <span class="n">ClienteSerializer</span><span class="p">(</span><span class="n">cliente</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+<a id="__codelineno-4-55" name="__codelineno-4-55" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-55"></a>        <span class="k">if</span> <span class="n">serializer</span><span class="o">.</span><span class="n">is_valid</span><span class="p">():</span>
+<a id="__codelineno-4-56" name="__codelineno-4-56" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-56"></a>            <span class="n">serializer</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
+<a id="__codelineno-4-57" name="__codelineno-4-57" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-57"></a>            <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">serializer</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+<a id="__codelineno-4-58" name="__codelineno-4-58" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-58"></a>        <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">serializer</span><span class="o">.</span><span class="n">errors</span><span class="p">,</span> <span class="n">status</span><span class="o">=</span><span class="n">status</span><span class="o">.</span><span class="n">HTTP_400_BAD_REQUEST</span><span class="p">)</span>
+<a id="__codelineno-4-59" name="__codelineno-4-59" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-59"></a>
+<a id="__codelineno-4-60" name="__codelineno-4-60" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-60"></a>    <span class="k">def</span> <span class="nf">patch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">pk</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<a id="__codelineno-4-61" name="__codelineno-4-61" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-61"></a>        <span class="n">cliente</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_object</span><span class="p">(</span><span class="n">pk</span><span class="p">)</span>
+<a id="__codelineno-4-62" name="__codelineno-4-62" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-62"></a>        <span class="n">serializer</span> <span class="o">=</span> <span class="n">ClienteSerializer</span><span class="p">(</span><span class="n">cliente</span><span class="p">,</span>
+<a id="__codelineno-4-63" name="__codelineno-4-63" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-63"></a>                                           <span class="n">data</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">data</span><span class="p">,</span>
+<a id="__codelineno-4-64" name="__codelineno-4-64" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-64"></a>                                           <span class="n">partial</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<a id="__codelineno-4-65" name="__codelineno-4-65" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-65"></a>        <span class="k">if</span> <span class="n">serializer</span><span class="o">.</span><span class="n">is_valid</span><span class="p">():</span>
+<a id="__codelineno-4-66" name="__codelineno-4-66" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-66"></a>            <span class="n">serializer</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
+<a id="__codelineno-4-67" name="__codelineno-4-67" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-67"></a>            <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">serializer</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+<a id="__codelineno-4-68" name="__codelineno-4-68" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-68"></a>        <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">serializer</span><span class="o">.</span><span class="n">errors</span><span class="p">,</span> <span class="n">status</span><span class="o">=</span><span class="n">status</span><span class="o">.</span><span class="n">HTTP_400_BAD_REQUEST</span><span class="p">)</span>
+<a id="__codelineno-4-69" name="__codelineno-4-69" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-69"></a>
+<a id="__codelineno-4-70" name="__codelineno-4-70" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-70"></a>
+<a id="__codelineno-4-71" name="__codelineno-4-71" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-71"></a>    <span class="k">def</span> <span class="nf">delete</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">pk</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<a id="__codelineno-4-72" name="__codelineno-4-72" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-72"></a>        <span class="n">cliente</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_object</span><span class="p">(</span><span class="n">pk</span><span class="p">)</span>
+<a id="__codelineno-4-73" name="__codelineno-4-73" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-73"></a>        <span class="n">cliente</span><span class="o">.</span><span class="n">delete</span><span class="p">()</span>
+<a id="__codelineno-4-74" name="__codelineno-4-74" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-4-74"></a>        <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="n">status</span><span class="o">.</span><span class="n">HTTP_204_NO_CONTENT</span><span class="p">)</span>
+</code></pre></div>
+<p>Los archivos:</p>
+<p><code>Apps/clientes/serializers.py</code></p>
+<p><code>Apps/clientes/urls.py</code></p>
+<p>Quedan exactamente igual al método anterior.</p>
+<p>Ahora probamos con <a href="http://localhost:8000/clientes/"><code>http://localhost:8000/clientes/</code></a></p>
+<p><img alt="" src="./Vistas Basadas en Clases - Guía Académica Universidad de la Guajira - Act. 2022_files/paste-AE3C2E08.png"></p>
+<p>También podemos probar el método Post,</p>
+<p><img alt="" src="./Vistas Basadas en Clases - Guía Académica Universidad de la Guajira - Act. 2022_files/paste-53D46F33.png"></p>
+<p>Donde se muestra luego el resultado, con el método Get.</p>
+<p><img alt="" src="./Vistas Basadas en Clases - Guía Académica Universidad de la Guajira - Act. 2022_files/paste-791159A7.png"></p>
+<p>Ahora probamos el Método Put.</p>
+<p><img alt="" src="./Vistas Basadas en Clases - Guía Académica Universidad de la Guajira - Act. 2022_files/paste-614256EF.png"></p>
+<p>Se obtiene como resultado</p>
+<p><img alt="" src="./Vistas Basadas en Clases - Guía Académica Universidad de la Guajira - Act. 2022_files/paste-20A169F1.png"></p>
+<p>Y por ultimo probamos el Metodo Delete</p>
+<p><img alt="" src="./Vistas Basadas en Clases - Guía Académica Universidad de la Guajira - Act. 2022_files/paste-7E4BF363.png"></p>
+<p><img alt="" src="./Vistas Basadas en Clases - Guía Académica Universidad de la Guajira - Act. 2022_files/paste-B3702AA1.png"></p>
+<h4 id="validaciones-de-los-atributos">Validaciones de los Atributos</h4>
+<p>Las validaciones de cada uno de los atributos se hacen en <code>Apps/clientes/serializers.py</code></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-1"></a><span class="kr">from</span><span class="w"> </span><span class="nx">dataclasses</span><span class="w"> </span><span class="k">import</span><span class="w"> </span><span class="nx">field</span><span class="w"></span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-2"></a><span class="kr">from</span><span class="w"> </span><span class="nx">statistics</span><span class="w"> </span><span class="k">import</span><span class="w"> </span><span class="nx">mode</span><span class="w"></span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-3"></a>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-4"></a><span class="kr">from</span><span class="w"> </span><span class="nx">rest_framework</span><span class="w"> </span><span class="k">import</span><span class="w"> </span><span class="nx">serializers</span><span class="w"></span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-5"></a><span class="kr">from</span><span class="w"> </span><span class="nx">Apps</span><span class="p">.</span><span class="nx">clientes</span><span class="p">.</span><span class="nx">models</span><span class="w"> </span><span class="k">import</span><span class="w"> </span><span class="nx">Cliente</span><span class="w"></span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-6"></a>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-7"></a><span class="kd">class</span><span class="w"> </span><span class="nx">ClienteSerializer</span><span class="p">(</span><span class="nx">serializers</span><span class="p">.</span><span class="nx">ModelSerializer</span><span class="p">)</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-8"></a><span class="w">    </span><span class="kd">class</span><span class="w"> </span><span class="nx">Meta</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-9"></a><span class="w">        </span><span class="kt">model</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Cliente</span><span class="w"></span>
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-10"></a><span class="w">        </span><span class="err">#</span><span class="w"> </span><span class="nx">fields</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"__all__"</span><span class="w"></span>
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-11"></a><span class="w">        </span><span class="nx">exclude</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="s1">'passwordCliente'</span><span class="p">]</span><span class="w"></span>
+<a id="__codelineno-5-12" name="__codelineno-5-12" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-12"></a><span class="w">        </span><span class="err">#</span><span class="w"> </span><span class="nx">fields</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-5-13" name="__codelineno-5-13" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-13"></a><span class="w">        </span><span class="err">#</span><span class="w">     </span><span class="s1">'pk'</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-5-14" name="__codelineno-5-14" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-14"></a><span class="w">        </span><span class="err">#</span><span class="w">     </span><span class="s1">'nombreCliente'</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-5-15" name="__codelineno-5-15" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-15"></a><span class="w">        </span><span class="err">#</span><span class="w">     </span><span class="s1">'direccionCliente'</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-5-16" name="__codelineno-5-16" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-16"></a><span class="w">        </span><span class="err">#</span><span class="w">     </span><span class="s1">'telefonoCliente'</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-5-17" name="__codelineno-5-17" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-17"></a><span class="w">        </span><span class="err">#</span><span class="w">     </span><span class="s1">'correoCliente'</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-5-18" name="__codelineno-5-18" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-18"></a><span class="w">        </span><span class="err">#</span><span class="w">     </span><span class="s1">'passwordCliente'</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-5-19" name="__codelineno-5-19" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-19"></a><span class="w">        </span><span class="err">#</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<a id="__codelineno-5-20" name="__codelineno-5-20" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-20"></a><span class="w">    </span><span class="nx">def</span><span class="w"> </span><span class="nx">validate</span><span class="p">(</span><span class="nx">self</span><span class="p">,</span><span class="w"> </span><span class="nx">data</span><span class="p">)</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-5-21" name="__codelineno-5-21" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-21"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="nx">data</span><span class="p">[</span><span class="s1">'nombreCliente'</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nx">data</span><span class="p">[</span><span class="s1">'direccionCliente'</span><span class="p">]</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-5-22" name="__codelineno-5-22" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-22"></a><span class="w">            </span><span class="nx">raise</span><span class="w"> </span><span class="nx">serializers</span><span class="p">.</span><span class="nx">ValidationError</span><span class="p">(</span><span class="s1">'Nombre y Correo No pueden ser iguales'</span><span class="p">)</span><span class="w"></span>
+<a id="__codelineno-5-23" name="__codelineno-5-23" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-23"></a><span class="w">        </span><span class="nx">else</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-5-24" name="__codelineno-5-24" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-24"></a><span class="w">            </span><span class="kt">return</span><span class="w"> </span><span class="nx">data</span><span class="w"></span>
+<a id="__codelineno-5-25" name="__codelineno-5-25" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-25"></a>
+<a id="__codelineno-5-26" name="__codelineno-5-26" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-26"></a><span class="w">    </span><span class="nx">def</span><span class="w"> </span><span class="nx">validate_nombreCliente</span><span class="p">(</span><span class="nx">self</span><span class="p">,</span><span class="w"> </span><span class="nx">value</span><span class="p">)</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-5-27" name="__codelineno-5-27" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-27"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="nx">len</span><span class="p">(</span><span class="nx">value</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nx">3</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-5-28" name="__codelineno-5-28" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-28"></a><span class="w">            </span><span class="kt">raise</span><span class="w"> </span><span class="nx">serializers</span><span class="p">.</span><span class="nx">ValidationError</span><span class="p">(</span><span class="s1">'Nombre no puede ser tan corto'</span><span class="p">)</span><span class="w"></span>
+<a id="__codelineno-5-29" name="__codelineno-5-29" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-29"></a><span class="w">        </span><span class="nx">else</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-5-30" name="__codelineno-5-30" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-5-30"></a><span class="w">            </span><span class="kt">return</span><span class="w"> </span><span class="nx">value</span><span class="w"></span>
+</code></pre></div>
+<h4 id="personalizacion-de-los-atributos">Personalizacion de los Atributos</h4>
+<p>Las personalizaciones de nuevos atributos se hacen en <code>Apps/clientes/serializers.py</code></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-1"></a><span class="kr">from</span><span class="w"> </span><span class="nx">dataclasses</span><span class="w"> </span><span class="k">import</span><span class="w"> </span><span class="nx">field</span><span class="w"></span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-2"></a><span class="kr">from</span><span class="w"> </span><span class="nx">statistics</span><span class="w"> </span><span class="k">import</span><span class="w"> </span><span class="nx">mode</span><span class="w"></span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-3"></a>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-4"></a><span class="kr">from</span><span class="w"> </span><span class="nx">rest_framework</span><span class="w"> </span><span class="k">import</span><span class="w"> </span><span class="nx">serializers</span><span class="w"></span>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-5"></a><span class="kr">from</span><span class="w"> </span><span class="nx">Apps</span><span class="p">.</span><span class="nx">clientes</span><span class="p">.</span><span class="nx">models</span><span class="w"> </span><span class="k">import</span><span class="w"> </span><span class="nx">Cliente</span><span class="w"></span>
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-6"></a>
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-7"></a><span class="kd">class</span><span class="w"> </span><span class="nx">ClienteSerializer</span><span class="p">(</span><span class="nx">serializers</span><span class="p">.</span><span class="nx">ModelSerializer</span><span class="p">)</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-8"></a><span class="w">    </span><span class="nx">len_nombreCliente</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">serializers</span><span class="p">.</span><span class="nx">SerializerMethodField</span><span class="p">()</span><span class="w"></span>
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-9"></a><span class="w">    </span><span class="kd">class</span><span class="w"> </span><span class="nx">Meta</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-10"></a><span class="w">        </span><span class="kt">model</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Cliente</span><span class="w"></span>
+<a id="__codelineno-6-11" name="__codelineno-6-11" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-11"></a><span class="w">        </span><span class="err">#</span><span class="w"> </span><span class="nx">fields</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"__all__"</span><span class="w"></span>
+<a id="__codelineno-6-12" name="__codelineno-6-12" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-12"></a><span class="w">        </span><span class="nx">exclude</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="s1">'passwordCliente'</span><span class="p">]</span><span class="w"></span>
+<a id="__codelineno-6-13" name="__codelineno-6-13" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-13"></a><span class="w">        </span><span class="err">#</span><span class="w"> </span><span class="nx">fields</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-6-14" name="__codelineno-6-14" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-14"></a><span class="w">        </span><span class="err">#</span><span class="w">     </span><span class="s1">'pk'</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-6-15" name="__codelineno-6-15" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-15"></a><span class="w">        </span><span class="err">#</span><span class="w">     </span><span class="s1">'nombreCliente'</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-6-16" name="__codelineno-6-16" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-16"></a><span class="w">        </span><span class="err">#</span><span class="w">     </span><span class="s1">'direccionCliente'</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-6-17" name="__codelineno-6-17" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-17"></a><span class="w">        </span><span class="err">#</span><span class="w">     </span><span class="s1">'telefonoCliente'</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-6-18" name="__codelineno-6-18" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-18"></a><span class="w">        </span><span class="err">#</span><span class="w">     </span><span class="s1">'correoCliente'</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-6-19" name="__codelineno-6-19" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-19"></a><span class="w">        </span><span class="err">#</span><span class="w">     </span><span class="s1">'passwordCliente'</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-6-20" name="__codelineno-6-20" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-20"></a><span class="w">        </span><span class="err">#</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<a id="__codelineno-6-21" name="__codelineno-6-21" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-21"></a>
+<a id="__codelineno-6-22" name="__codelineno-6-22" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-22"></a><span class="w">    </span><span class="nx">def</span><span class="w"> </span><span class="nx">get_len_nombreCliente</span><span class="p">(</span><span class="nx">self</span><span class="p">,</span><span class="w"> </span><span class="nx">object</span><span class="p">)</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-6-23" name="__codelineno-6-23" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-23"></a><span class="w">        </span><span class="nx">length</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">len</span><span class="p">(</span><span class="nx">object</span><span class="p">.</span><span class="nx">nombreCliente</span><span class="p">)</span><span class="w"></span>
+<a id="__codelineno-6-24" name="__codelineno-6-24" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-24"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nx">length</span><span class="w"></span>
+<a id="__codelineno-6-25" name="__codelineno-6-25" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-25"></a>
+<a id="__codelineno-6-26" name="__codelineno-6-26" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-26"></a><span class="w">    </span><span class="nx">def</span><span class="w"> </span><span class="nx">validate</span><span class="p">(</span><span class="nx">self</span><span class="p">,</span><span class="w"> </span><span class="nx">data</span><span class="p">)</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-6-27" name="__codelineno-6-27" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-27"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="nx">data</span><span class="p">[</span><span class="s1">'nombreCliente'</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nx">data</span><span class="p">[</span><span class="s1">'direccionCliente'</span><span class="p">]</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-6-28" name="__codelineno-6-28" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-28"></a><span class="w">            </span><span class="nx">raise</span><span class="w"> </span><span class="nx">serializers</span><span class="p">.</span><span class="nx">ValidationError</span><span class="p">(</span><span class="s1">'Nombre y Correo No pueden ser iguales'</span><span class="p">)</span><span class="w"></span>
+<a id="__codelineno-6-29" name="__codelineno-6-29" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-29"></a><span class="w">        </span><span class="nx">else</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-6-30" name="__codelineno-6-30" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-30"></a><span class="w">            </span><span class="kt">return</span><span class="w"> </span><span class="nx">data</span><span class="w"></span>
+<a id="__codelineno-6-31" name="__codelineno-6-31" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-31"></a>
+<a id="__codelineno-6-32" name="__codelineno-6-32" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-32"></a><span class="w">    </span><span class="nx">def</span><span class="w"> </span><span class="nx">validate_nombreCliente</span><span class="p">(</span><span class="nx">self</span><span class="p">,</span><span class="w"> </span><span class="nx">value</span><span class="p">)</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-6-33" name="__codelineno-6-33" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-33"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="nx">len</span><span class="p">(</span><span class="nx">value</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nx">3</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-6-34" name="__codelineno-6-34" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-34"></a><span class="w">            </span><span class="kt">raise</span><span class="w"> </span><span class="nx">serializers</span><span class="p">.</span><span class="nx">ValidationError</span><span class="p">(</span><span class="s1">'Nombre no puede ser tan corto'</span><span class="p">)</span><span class="w"></span>
+<a id="__codelineno-6-35" name="__codelineno-6-35" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-35"></a><span class="w">        </span><span class="nx">else</span><span class="o">:</span><span class="w"></span>
+<a id="__codelineno-6-36" name="__codelineno-6-36" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-6-36"></a><span class="w">            </span><span class="kt">return</span><span class="w"> </span><span class="nx">value</span><span class="w"></span>
+</code></pre></div>
+<h3 id="envolviendo-vistas-en-api-con-apiview">Envolviendo Vistas en API - Con @apiview</h3>
+<p>En el archivo <code>Apps/clientes/views.py</code> colocamos el código correspondiente para realizar el CRUD completo.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-1"></a><span class="kn">from</span> <span class="nn">django.shortcuts</span> <span class="kn">import</span> <span class="n">render</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-2"></a><span class="kn">from</span> <span class="nn">django.http</span> <span class="kn">import</span> <span class="n">Http404</span>
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-3"></a>
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-4"></a><span class="kn">from</span> <span class="nn">rest_framework.response</span> <span class="kn">import</span> <span class="n">Response</span>
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-5"></a><span class="kn">from</span> <span class="nn">rest_framework.decorators</span> <span class="kn">import</span> <span class="n">api_view</span>
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-6"></a>
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-7"></a><span class="kn">from</span> <span class="nn">rest_framework</span> <span class="kn">import</span> <span class="n">status</span>
+<a id="__codelineno-7-8" name="__codelineno-7-8" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-8"></a>
+<a id="__codelineno-7-9" name="__codelineno-7-9" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-9"></a><span class="kn">from</span> <span class="nn">Apps.clientes.models</span> <span class="kn">import</span> <span class="n">Cliente</span>
+<a id="__codelineno-7-10" name="__codelineno-7-10" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-10"></a><span class="kn">from</span> <span class="nn">Apps.clientes.serializers</span> <span class="kn">import</span> <span class="n">ClienteSerializer</span>
+<a id="__codelineno-7-11" name="__codelineno-7-11" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-11"></a>
+<a id="__codelineno-7-12" name="__codelineno-7-12" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-12"></a><span class="c1"># Create your views here.</span>
+<a id="__codelineno-7-13" name="__codelineno-7-13" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-13"></a>
+<a id="__codelineno-7-14" name="__codelineno-7-14" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-14"></a>
+<a id="__codelineno-7-15" name="__codelineno-7-15" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-15"></a><span class="nd">@api_view</span><span class="p">([</span><span class="s1">'GET'</span><span class="p">,</span> <span class="s1">'POST'</span><span class="p">])</span>
+<a id="__codelineno-7-16" name="__codelineno-7-16" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-16"></a><span class="k">def</span> <span class="nf">cliente_list</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+<a id="__codelineno-7-17" name="__codelineno-7-17" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-17"></a>    <span class="sd">"""</span>
+<a id="__codelineno-7-18" name="__codelineno-7-18" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-18"></a><span class="sd">    List all code snippets, or create a new snippet.</span>
+<a id="__codelineno-7-19" name="__codelineno-7-19" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-19"></a><span class="sd">    """</span>
+<a id="__codelineno-7-20" name="__codelineno-7-20" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-20"></a>    <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s1">'GET'</span><span class="p">:</span>
+<a id="__codelineno-7-21" name="__codelineno-7-21" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-21"></a>        <span class="n">clientes</span> <span class="o">=</span> <span class="n">Cliente</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+<a id="__codelineno-7-22" name="__codelineno-7-22" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-22"></a>        <span class="n">serializer</span> <span class="o">=</span> <span class="n">ClienteSerializer</span><span class="p">(</span><span class="n">clientes</span><span class="p">,</span> <span class="n">many</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<a id="__codelineno-7-23" name="__codelineno-7-23" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-23"></a>        <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">serializer</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+<a id="__codelineno-7-24" name="__codelineno-7-24" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-24"></a>
+<a id="__codelineno-7-25" name="__codelineno-7-25" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-25"></a>    <span class="k">elif</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s1">'POST'</span><span class="p">:</span>
+<a id="__codelineno-7-26" name="__codelineno-7-26" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-26"></a>        <span class="n">serializer</span> <span class="o">=</span> <span class="n">ClienteSerializer</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+<a id="__codelineno-7-27" name="__codelineno-7-27" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-27"></a>        <span class="k">if</span> <span class="n">serializer</span><span class="o">.</span><span class="n">is_valid</span><span class="p">():</span>
+<a id="__codelineno-7-28" name="__codelineno-7-28" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-28"></a>            <span class="n">serializer</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
+<a id="__codelineno-7-29" name="__codelineno-7-29" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-29"></a>            <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">serializer</span><span class="o">.</span><span class="n">data</span><span class="p">,</span> <span class="n">status</span><span class="o">=</span><span class="n">status</span><span class="o">.</span><span class="n">HTTP_201_CREATED</span><span class="p">)</span>
+<a id="__codelineno-7-30" name="__codelineno-7-30" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-30"></a>        <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">serializer</span><span class="o">.</span><span class="n">errors</span><span class="p">,</span> <span class="n">status</span><span class="o">=</span><span class="n">status</span><span class="o">.</span><span class="n">HTTP_400_BAD_REQUEST</span><span class="p">)</span>
+<a id="__codelineno-7-31" name="__codelineno-7-31" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-31"></a>
+<a id="__codelineno-7-32" name="__codelineno-7-32" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-32"></a>
+<a id="__codelineno-7-33" name="__codelineno-7-33" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-33"></a><span class="nd">@api_view</span><span class="p">([</span><span class="s1">'GET'</span><span class="p">,</span> <span class="s1">'PUT'</span><span class="p">,</span> <span class="s1">'DELETE'</span><span class="p">])</span>
+<a id="__codelineno-7-34" name="__codelineno-7-34" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-34"></a><span class="k">def</span> <span class="nf">cliente_detail</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">pk</span><span class="p">):</span>
+<a id="__codelineno-7-35" name="__codelineno-7-35" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-35"></a>    <span class="sd">"""</span>
+<a id="__codelineno-7-36" name="__codelineno-7-36" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-36"></a><span class="sd">    Retrieve, update or delete a code snippet.</span>
+<a id="__codelineno-7-37" name="__codelineno-7-37" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-37"></a><span class="sd">    """</span>
+<a id="__codelineno-7-38" name="__codelineno-7-38" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-38"></a>    <span class="k">try</span><span class="p">:</span>
+<a id="__codelineno-7-39" name="__codelineno-7-39" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-39"></a>        <span class="n">cliente</span> <span class="o">=</span> <span class="n">Cliente</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">pk</span><span class="o">=</span><span class="n">pk</span><span class="p">)</span>
+<a id="__codelineno-7-40" name="__codelineno-7-40" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-40"></a>    <span class="k">except</span> <span class="n">Cliente</span><span class="o">.</span><span class="n">DoesNotExist</span><span class="p">:</span>
+<a id="__codelineno-7-41" name="__codelineno-7-41" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-41"></a>        <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="n">status</span><span class="o">.</span><span class="n">HTTP_404_NOT_FOUND</span><span class="p">)</span>
+<a id="__codelineno-7-42" name="__codelineno-7-42" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-42"></a>
+<a id="__codelineno-7-43" name="__codelineno-7-43" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-43"></a>    <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s1">'GET'</span><span class="p">:</span>
+<a id="__codelineno-7-44" name="__codelineno-7-44" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-44"></a>        <span class="n">serializer</span> <span class="o">=</span> <span class="n">ClienteSerializer</span><span class="p">(</span><span class="n">cliente</span><span class="p">)</span>
+<a id="__codelineno-7-45" name="__codelineno-7-45" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-45"></a>        <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">serializer</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+<a id="__codelineno-7-46" name="__codelineno-7-46" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-46"></a>
+<a id="__codelineno-7-47" name="__codelineno-7-47" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-47"></a>    <span class="k">elif</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s1">'PUT'</span><span class="p">:</span>
+<a id="__codelineno-7-48" name="__codelineno-7-48" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-48"></a>        <span class="n">serializer</span> <span class="o">=</span> <span class="n">ClienteSerializer</span><span class="p">(</span><span class="n">cliente</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+<a id="__codelineno-7-49" name="__codelineno-7-49" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-49"></a>        <span class="k">if</span> <span class="n">serializer</span><span class="o">.</span><span class="n">is_valid</span><span class="p">():</span>
+<a id="__codelineno-7-50" name="__codelineno-7-50" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-50"></a>            <span class="n">serializer</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
+<a id="__codelineno-7-51" name="__codelineno-7-51" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-51"></a>            <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">serializer</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+<a id="__codelineno-7-52" name="__codelineno-7-52" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-52"></a>        <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">serializer</span><span class="o">.</span><span class="n">errors</span><span class="p">,</span> <span class="n">status</span><span class="o">=</span><span class="n">status</span><span class="o">.</span><span class="n">HTTP_400_BAD_REQUEST</span><span class="p">)</span>
+<a id="__codelineno-7-53" name="__codelineno-7-53" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-53"></a>
+<a id="__codelineno-7-54" name="__codelineno-7-54" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-54"></a>    <span class="k">elif</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s1">'DELETE'</span><span class="p">:</span>
+<a id="__codelineno-7-55" name="__codelineno-7-55" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-55"></a>        <span class="n">cliente</span><span class="o">.</span><span class="n">delete</span><span class="p">()</span>
+<a id="__codelineno-7-56" name="__codelineno-7-56" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-7-56"></a>        <span class="k">return</span> <span class="n">Response</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="n">status</span><span class="o">.</span><span class="n">HTTP_204_NO_CONTENT</span><span class="p">)</span>
+</code></pre></div>
+<p>Código en el archivo <code>Apps/clientes/urls.py</code></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-8-1"></a><span class="sd">"""</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-8-2"></a><span class="sd">Envolviendo Vistas de Api</span>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-8-3"></a><span class="sd">"""</span>
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-8-4"></a>
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-8-5"></a><span class="kn">from</span> <span class="nn">django.urls</span> <span class="kn">import</span> <span class="n">path</span>
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-8-6"></a><span class="kn">from</span> <span class="nn">Apps.clientes.views</span> <span class="kn">import</span> <span class="n">cliente_list</span><span class="p">,</span> <span class="n">cliente_detail</span>
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-8-7"></a>
+<a id="__codelineno-8-8" name="__codelineno-8-8" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-8-8"></a><span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
+<a id="__codelineno-8-9" name="__codelineno-8-9" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-8-9"></a>    <span class="n">path</span><span class="p">(</span><span class="s1">''</span><span class="p">,</span> <span class="n">cliente_list</span><span class="p">),</span>
+<a id="__codelineno-8-10" name="__codelineno-8-10" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-8-10"></a>    <span class="n">path</span><span class="p">(</span><span class="s1">'&lt;int:pk&gt;/'</span><span class="p">,</span> <span class="n">cliente_detail</span><span class="p">),</span>
+<a id="__codelineno-8-11" name="__codelineno-8-11" href="http://190.131.213.204:9090/site/backend/Django/clases/#__codelineno-8-11"></a><span class="p">]</span>
+</code></pre></div>
+<p>El archivo:</p>
+<p><code>Apps/clientes/serializers.py</code></p>
+<p>Quedan exactamente igual al método anterior.</p>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.85cb4492.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="./Vistas Basadas en Clases - Guía Académica Universidad de la Guajira - Act. 2022_files/bundle.a877e258.min.js.descargar"></script>
+      
+    
+  
+</body></html>
